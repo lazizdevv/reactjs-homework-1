@@ -1,4 +1,3 @@
-
 const ProductCard = ({img,name,info,star,rating,phone,book,hidden}) => {
     return( 
         <>
