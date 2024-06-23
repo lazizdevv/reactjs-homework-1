@@ -1,0 +1,68 @@
+.card{ width: 239px; height: 450px; margin-bottom: 20px;}
+
+img{cursor: pointer;}
+
+#book-img{ width: 100%; margin-bottom: 18px;}
+
+#new-adds, #audio-books{ display: flex; justify-content: space-between; gap: 24px; margin-bottom: 64px;}
+
+#icon-panel{ margin-top: 16px; display: flex; justify-content: space-between; align-items: center;}
+
+#icon-star{ display: flex; gap: 10px;}
+
+#icon-button{display: flex; gap: 21px;}
+
+.hidden { display: none;}
+
+#book-type{
+    color: rgb(36, 36, 36);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+#name{
+    color: rgb(17, 20, 45);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+#info{
+    color: rgb(63, 81, 181);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+#rating{
+    color: rgb(255, 127, 77);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/*---------------responsive----------------------*/
+
+@media screen and (max-width: 900px) {
+    #new-adds, #audio-books{ justify-content: center; flex-wrap: wrap;}
+    .card{ width: 239px; margin-bottom: 150px;}
+    #book-type{ text-align: center; }
+}
+
+@media screen and (max-width: 450px) {
+    #new-adds, #audio-books{ justify-content: center;  margin-bottom: 50px;}
+    .card{ width: 90%;}
+    #book-type{ text-align: center; }
+}
