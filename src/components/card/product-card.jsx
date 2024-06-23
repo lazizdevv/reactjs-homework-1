@@ -1,4 +1,3 @@
-import "./product-card.css";
 
 const ProductCard = ({img,name,info,star,rating,phone,book,hidden}) => {
     return( 
@@ -22,4 +21,4 @@ const ProductCard = ({img,name,info,star,rating,phone,book,hidden}) => {
     ) 
 }
 
-export default ProductCard
+export default ProductCard;
