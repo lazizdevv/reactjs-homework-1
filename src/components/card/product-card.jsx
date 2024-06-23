@@ -15,12 +15,11 @@ const ProductCard = ({img,name,info,star,rating,phone,book,hidden}) => {
                     <div id="icon-button">
                         <img src={phone} alt="icon-headphone" />
                         <img src={book} alt="icon-book" className={hidden ? 'hidden' : ''} />
-                        
                     </div>
                 </div>
             </div>
         </>
-) 
+    ) 
 }
 
 export default ProductCard
